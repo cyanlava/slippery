@@ -1,5 +1,4 @@
-import random
+file = open('score.txt', 'r+')
 
-toggle = random.randrange(0,2)
-
-print(toggle)
+l = file.read()
+print(l)
